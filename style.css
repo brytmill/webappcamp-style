@@ -56,4 +56,9 @@ code {
     background: #f39968;
     color: #fff; }
 
+.well {
+  margin-bottom: 40px; }
+  .well p {
+    font-family: "Courier New", Courier, monospace; }
+
 /*# sourceMappingURL=style.css.map */
