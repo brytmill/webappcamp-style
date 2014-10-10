@@ -1,39 +1,57 @@
-/*
-Error: Invalid variable: "$color-primary".
-        on line 1 of ./style.sass
+body {
+  font-family: "Nunito", Helvetica, Arial, Sans-Serif;
+  font-size: 62.5%; }
 
-1: $color-primary
-2: $color-secondary
-3: 
-4: 
-5: 
-6: .btn
+h1 {
+  font-weight: bold;
+  font-size: 3.5em;
+  font-size: 3.5rem; }
 
-Backtrace:
-./style.sass:1
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:731:in `parse_variable'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:631:in `parse_line'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:525:in `build_tree'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:544:in `block in append_children'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:543:in `each'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:543:in `append_children'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:396:in `_to_tree'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:368:in `_render_with_sourcemap'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/engine.rb:285:in `render_with_sourcemap'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:489:in `update_stylesheet'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `each'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:469:in `on_file_changed'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/lib/sass/plugin/compiler.rb:328:in `block in watch'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `call'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:252:in `on_change'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/listener.rb:290:in `block in initialize_adapter'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapters/polling.rb:48:in `call'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapters/polling.rb:48:in `poll_changed_directories'
-c:/RailsInstaller/Ruby2.0.0/lib/ruby/gems/2.0.0/gems/sass-3.4.5/vendor/listen/lib/listen/adapter.rb:299:in `block in start_poller'
-*/
-body:before {
-  white-space: pre;
-  font-family: monospace;
-  content: "Error: Invalid variable: \"$color-primary\".\A         on line 1 of ./style.sass\A \A 1: $color-primary\A 2: $color-secondary\A 3: \A 4: \A 5: \A 6: .btn"; }
+h2 {
+  font-weight: bold;
+  font-size: 2.75em;
+  font-size: 2.75rem; }
+
+h3 {
+  font-weight: bold;
+  font-size: 2em;
+  font-size: 2rem; }
+
+h4 {
+  font-weight: bold;
+  font-size: 1.4em;
+  font-size: 1.4rem; }
+
+p {
+  font-size: 1.4em;
+  font-size: 1.4rem; }
+
+code {
+  background: #333;
+  border-radius: none;
+  color: #fff;
+  font-family: "Courier New", Courier, monospace;
+  font-style: italic;
+  padding: 10px 20px; }
+
+.btn {
+  color: #fff;
+  font-weight: bold;
+  padding: 10px 20px; }
+
+.btn-primary {
+  background: #2d94cf;
+  border: 1px solid #1b587b;
+  border-bottom: 5px solid #1b587b; }
+  .btn-primary:hover {
+    background: #55aada; }
+
+.btn-secondary {
+  background: #ef7939;
+  border: 1px solid #b3490f;
+  border-bottom: 5px solid #b3490f; }
+  .btn-secondary:hover {
+    background: #f39968;
+    color: #fff; }
+
+/*# sourceMappingURL=style.css.map */
