@@ -4,15 +4,16 @@
   <meta charset="UTF-8">
   <title>Web App Camp - Style Guide</title>
 
-  <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+  <script src="libs/jquery-1.11.0.min.js"></script>
 
   <!-- Bootstrap Hax -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+  <link href="libs/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/bootstrap-theme.min.css">
+  <script src="libs/bootstrap.min.js"></script>
   <!-- Fonts -->
-  <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,300,700,400' rel='stylesheet' type='text/css'>
-  <link href='http://fonts.googleapis.com/css?family=Nunito:400,300,700' rel='stylesheet' type='text/css'>
+  <link href='libs/open-sans.css' rel='stylesheet' type='text/css'>
+  <link href='libs/nunito.css' rel='stylesheet' type='text/css'>
 
   <link rel="stylesheet" href="style.css">
 
@@ -20,6 +21,30 @@
 <body>
 
   <div class="container">
+    <h1>Primary Colors</h1>
+    <div class="container">
+      <div class="col-md-3"><div class="prim-color"></div></div>
+      <div class="col-md-3"><div class="prim-color second"></div></div>
+      <div class="col-md-3"><div class="prim-color third"></div></div>
+      <div class="col-md-3"><div class="prim-color fourth"></div></div>
+    </div>
+    <div class="container well" style="text-align: center">
+      <div class="col-md-3">
+        <p>color: #2d94cf</p>
+      </div>
+      <div class="col-md-3">
+        <p>color: #ef7939</p>
+      </div>
+      <div class="col-md-3">
+        <p>color: #dddddd</p>
+      </div>
+      <div class="col-md-3">
+        <p>color: #3333333</p>
+      </div>
+    </div>
+    <div class="container">
+      <div class="alert alert-warning" role="warning"><strong>Note:</strong> For borders and/or 'depressed' text, darken by 20%. For hover, lighten by 10%.</div>
+    </div>
     <h1>H1 Heading</h1>
     <div class="container well">
       <p>&#60;h1&#62;H1 Heading&#60;/h1&#62;</p>
@@ -49,8 +74,107 @@
       <p>&#60;button class="btn btn-secondary"&#62;Secondary Button&#60;/button&#62;</p>
     </div>
     <p><code>// This is an example of code</code></p>
-    <div class="container well">
+    <div class="container well" style="margin-top: 20px;">
       <p>&#60;code&#62;// This is an example of code&#60;/code&#62;</p>
+    </div>
+    <h1>Blockquote</h1>
+    <blockquote>"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante."</blockquote>
+    <div class="container well">
+      <p>&#60;blockquote&#62;"Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante."&#60;/blockquote&#62;</p>
+    </div>
+    <h1>Progress Bar</h1>
+    <div class="progress">
+      <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+        <span>75% Complete</span>
+      </div>
+    </div>  
+    <div class="container well">
+      <p>
+        &#60;div class="progress"&#62;<br/>
+          &nbsp;&nbsp;&#60;div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%"&#62;<br/>
+            &nbsp;&nbsp;&nbsp;&nbsp;&#60;span&#62;75% Complete&#60;/span&#62;<br/>
+          &nbsp;&nbsp;&#60;/div&#62;<br/>
+        &#60;/div&#62;
+      </p>
+    </div>
+    <h1>Social Camp Indicators</h1>
+    <div class="container">
+      <ul class="indicators">
+        <li>
+          <i class="fa fa-paint-brush"></i><span>Designer Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-paint-brush"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-puzzle-piece"></i><span>UX Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-puzzle-piece"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-desktop"></i><span>Entrepreneur Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-desktop"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-share-alt"></i><span>Manager Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-share-alt"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-graduation-cap"></i><span>Junior Developer Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-graduation-cap"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-institution"></i><span>Senior Developer Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-institution"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-users"></i><span>HR Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-users"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-briefcase"></i><span>Lawyer Camp</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-briefcase"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+        <li>
+          <i class="fa fa-line-chart"></i><span>Sales &amp; Marketing</span>
+          <div class="container-fluid well">
+            <p>&#60;i class="fa fa-line-chart"&#62;&#60;/i&#62;</p>
+          </div>
+        </li>
+      </ul>
+    </div>
+    <h1>Nav Bar for Guest</h1>
+    <div class="container well">
+      
+    </div>
+    <h1>Nav Bar for Member</h1>
+    <div class="container well">
+      
+    </div>
+    <h1>Dashboard (Concept)</h1>
+    <div class="container well">
+      
+    </div>
+    <h1>Project Overview (Concept)</h1>
+    <div class="container well">
+      
+    </div>
+    <h1>User Story (Concept)</h1>
+    <div class="container well">
+      
     </div>
   </div>
 

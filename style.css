@@ -1,32 +1,36 @@
 body {
+  font-family: "Open Sans", Helvetica, Arial, Sans-serif; }
+
+h1, h2, h3, h4 {
   font-family: "Nunito", Helvetica, Arial, Sans-Serif;
-  font-size: 62.5%; }
+  font-weight: 700; }
 
 h1 {
-  font-weight: bold;
   font-size: 3.5em;
   font-size: 3.5rem; }
 
 h2 {
-  font-weight: bold;
   font-size: 2.75em;
   font-size: 2.75rem; }
 
 h3 {
-  font-weight: bold;
   font-size: 2em;
   font-size: 2rem; }
 
 h4 {
-  font-weight: bold;
-  font-size: 1.4em;
-  font-size: 1.4rem; }
+  font-size: 1.75em;
+  font-size: 1.75rem; }
 
 p {
-  font-size: 1.4em;
-  font-size: 1.4rem;
   font-family: "Open Sans", Helvetica, Arial, Sans-serif;
   font-weight: 300; }
+
+ul {
+  margin: 0;
+  padding: 0; }
+
+i.fa {
+  font-size: 3em; }
 
 code {
   background: #333;
@@ -35,6 +39,35 @@ code {
   font-family: "Courier New", Courier, monospace;
   font-style: italic;
   padding: 10px 20px; }
+
+blockquote {
+  background: #f1f1f1;
+  border-left: 5px solid #ddd;
+  border-radius: 5px;
+  color: #555;
+  display: inline-block;
+  font-family: "Nunito", Helvetica, Arial, Sans-Serif;
+  font-style: italic;
+  margin: 20px;
+  max-width: 480px;
+  padding: 40px 20px;
+  width: auto; }
+
+.prim-color {
+  background: #2d94cf;
+  border-radius: 5px;
+  height: 40px;
+  margin-bottom: 20px;
+  width: 100%; }
+
+.second {
+  background: #ef7939; }
+
+.third {
+  background: #dddddd; }
+
+.fourth {
+  background: #333333; }
 
 .btn {
   color: #fff;
@@ -60,5 +93,21 @@ code {
   margin-bottom: 40px; }
   .well p {
     font-family: "Courier New", Courier, monospace; }
+
+.indicators {
+  margin-top: 20px; }
+  .indicators li {
+    float: left;
+    list-style: none;
+    margin-right: 40px;
+    min-height: 240px;
+    min-width: 240px;
+    text-align: center;
+    width: 29%; }
+    .indicators li i {
+      display: block; }
+    .indicators li span {
+      display: block;
+      margin: 10px 0; }
 
 /*# sourceMappingURL=style.css.map */
