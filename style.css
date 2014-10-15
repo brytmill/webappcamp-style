@@ -70,21 +70,20 @@ blockquote {
   background: #333333; }
 
 .btn {
+  border: none;
   color: #fff;
   font-weight: bold;
   padding: 10px 20px; }
 
 .btn-primary {
   background: #2d94cf;
-  border: 1px solid #1b587b;
-  border-bottom: 5px solid #1b587b; }
+  border-bottom: 3px solid #1b587b; }
   .btn-primary:hover {
     background: #55aada; }
 
 .btn-secondary {
   background: #ef7939;
-  border: 1px solid #b3490f;
-  border-bottom: 5px solid #b3490f; }
+  border-bottom: 3px solid #b3490f; }
   .btn-secondary:hover {
     background: #f39968;
     color: #fff; }
