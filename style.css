@@ -109,4 +109,93 @@ blockquote {
       display: block;
       margin: 10px 0; }
 
+#cpanel {
+  background: #fff;
+  border-bottom: 3px #ddd solid;
+  position: relative;
+  width: 100%;
+  transition: position 0.5s ease; }
+  #cpanel:active {
+    top: -400px; }
+  #cpanel h2 {
+    color: #ddd; }
+  #cpanel a:hover {
+    text-decoration: none; }
+  #cpanel li {
+    font-weight: 700;
+    margin: 15px 0;
+    max-width: 100%; }
+  #cpanel i {
+    font-size: 1em; }
+  #cpanel .my-camps {
+    padding: 0 40px; }
+    #cpanel .my-camps li {
+      margin: 25px 0; }
+      #cpanel .my-camps li:first-child {
+        margin-top: 0; }
+      #cpanel .my-camps li:last-child {
+        margin-bottom: 40px; }
+    #cpanel .my-camps .progress {
+      position: relative;
+      top: 10px; }
+      #cpanel .my-camps .progress span {
+        color: #fff;
+        font-weight: 700; }
+    #cpanel .my-camps i {
+      background: #ddd;
+      border: 2px solid #f2f2f2;
+      border-radius: 50%;
+      color: #999;
+      float: right;
+      margin-left: 10px;
+      padding: 10px;
+      display: block;
+      transition: all 0.2s ease; }
+      #cpanel .my-camps i:hover {
+        background: #2d94cf;
+        border-color: #7fbfe3;
+        color: #fff; }
+    #cpanel .my-camps .complete {
+      color: #2d94cf; }
+  #cpanel .notifications {
+    max-height: 250px;
+    overflow-y: scroll;
+    padding: 0 20px; }
+    #cpanel .notifications i {
+      color: #ddd; }
+    #cpanel .notifications .notification-variable {
+      color: #2d94cf; }
+    #cpanel .notifications .read {
+      opacity: 0.2;
+      font-weight: 300; }
+  #cpanel .my-profile {
+    padding: 0 40px; }
+    #cpanel .my-profile li {
+      margin: 0; }
+    #cpanel .my-profile a {
+      color: #ddd;
+      display: block;
+      transition: color 0.2s ease;
+      padding: 10px 0; }
+      #cpanel .my-profile a:hover {
+        color: #2d94cf; }
+    #cpanel .my-profile i {
+      font-size: 1.5em;
+      position: relative;
+      margin-right: 10px;
+      top: 3px; }
+  #cpanel .cpanel-click {
+    position: absolute;
+    top: 100%;
+    right: 20px;
+    background: #fff;
+    z-index: 99999999999999; }
+    #cpanel .cpanel-click a {
+      color: #ddd;
+      display: block;
+      padding: 10px 15px;
+      transition: all 0.2s ease; }
+      #cpanel .cpanel-click a:hover {
+        color: #2d94cf; }
+
 /*# sourceMappingURL=style.css.map */

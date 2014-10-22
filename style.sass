@@ -109,3 +109,95 @@ blockquote
 		span
 			display: block
 			margin: 10px 0
+
+#cpanel
+	background: #fff
+	border-bottom: 3px #ddd solid
+	position: relative
+	width: 100%
+	transition: position .5s ease
+	&:active
+		top: -400px
+	h2
+		color: #ddd
+	a
+		&:hover
+			text-decoration: none
+	li
+		font-weight: 700
+		margin: 15px 0
+		max-width: 100%
+	i
+		font-size: 1em
+	.my-camps
+		padding: 0 40px
+		li
+			margin: 25px 0
+			&:first-child
+				margin-top: 0
+			&:last-child
+				margin-bottom: 40px
+		.progress
+			position: relative
+			top: 10px
+			span
+				color: #fff
+				font-weight: 700
+		i
+			background: #ddd
+			border: 2px solid #f2f2f2
+			border-radius: 50%
+			color: #999
+			float: right
+			margin-left: 10px
+			padding: 10px
+			display: block
+			transition: all .2s ease
+			&:hover
+				background: $color-primary
+				border-color: lighten($color-primary, 20%)
+				color: #fff
+		.complete
+			color: $color-primary
+
+	.notifications
+		max-height: 250px
+		overflow-y: scroll
+		padding: 0 20px
+		i
+			color: #ddd
+		.notification-variable
+			color: $color-primary
+		.read
+			opacity: 0.2
+			font-weight: 300
+
+	.my-profile
+		padding: 0 40px
+		li
+			margin: 0
+		a
+			color: #ddd
+			display: block
+			transition: color .2s ease
+			padding: 10px 0
+			&:hover
+				color: $color-primary
+		i
+			font-size: 1.5em
+			position: relative
+			margin-right: 10px
+			top: 3px
+	.cpanel-click
+		position: absolute
+		top: 100%
+		right: 20px
+		background: #fff
+		z-index: 99999999999999
+		a
+			color: #ddd
+			display: block
+			padding: 10px 15px
+			transition: all .2s ease
+			&:hover
+				color: $color-primary

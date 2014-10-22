@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Webapp.camp Nav Bar and Control Panel Test</title>
+
+	  <script src="libs/jquery-1.11.0.min.js"></script>
+
+	  <!-- Bootstrap Hax -->
+	  <link href="libs/font-awesome.min.css" rel="stylesheet">
+	  <link rel="stylesheet" href="libs/bootstrap.min.css">
+	  <link rel="stylesheet" href="libs/bootstrap-theme.min.css">
+	  <script src="libs/bootstrap.min.js"></script>
+	  <!-- Fonts -->
+	  <link href='libs/open-sans.css' rel='stylesheet' type='text/css'>
+	  <link href='libs/nunito.css' rel='stylesheet' type='text/css'>
+
+	  <link rel="stylesheet" href="style.css">
+</head>
+<body style="background: #333">
+	<div class="container-fluid" id="cpanel">
+		<div class="col-md-6 my-camps">
+			<h2>My Camps</h2>
+			<ul class="list-unstyled">
+				<li> 
+				    <a href=""><i class="fa fa-reply"></i></a>
+					<div class="progress">
+				      <div class="progress-bar progress-bar-striped progress-bar-success active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 75%">
+				        <span>Front-End Development (75%)</span>
+				      </div>
+				    </div> 
+				</li>
+				<li>
+				    <a href=""><i class="fa fa-reply"></i></a>
+					<div class="progress">
+				      <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 39%">
+				        <span>Back-End Development (39%)</span>
+				      </div>
+				    </div> 
+				</li>
+				<li>
+				    <a href=""><i class="fa fa-check complete"></i></a>
+					<div class="progress">
+				      <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 100%">
+				        <span>User Experience (100% Complete)</span>
+				      </div>
+				    </div> 
+				</li>
+				<li> 
+				    <a href=""><i class="fa fa-reply"></i></a>
+					<div class="progress">
+				      <div class="progress-bar progress-bar-striped progress-bar-warning active" role="progressbar" aria-valuenow="75" aria-valuemin="0" aria-valuemax="100" style="width: 45%">
+				        <span>Design (45%)</span>
+				      </div>
+				    </div> 
+				</li>
+			</ul>
+		</div>
+		<div class="col-md-3 notifications">
+			<h2>Notifications (<span class="notification-variable">6</span>)</h2>
+			<ul class="list-unstyled">
+				<li><i class="fa fa-envelope"></i> New Message <a href="">@funderwood1</a></li>
+				<li><i class="fa fa-envelope"></i> New Message <a href="">@thepinkman42</a></li>
+				<li class="read"><i class="fa fa-envelope"></i> New Message <a href="">@soa_clay</a></li>
+				<li class="read"><i class="fa fa-envelope"></i> New Message <a href="">@johnteller</a></li>
+				<li class="read"><i class="fa fa-envelope"></i> New Message <a href="">@walterwhite</a></li>
+				<li class="read"><i class="fa fa-envelope"></i> New Message <a href="">@thepinkman</a></li>
+			</ul>
+		</div>
+		<div class="col-md-3 my-profile">
+			<h2>My Profile</h2>
+			<ul class="list-unstyled">
+				<li><a href=""><i class="fa fa-user"></i> Profile</a></li>
+				<li><a href=""><i class="fa fa-certificate"></i> Account</a></li>
+				<li><a href=""><i class="fa fa-gear"></i> Settings</a></li>
+				<li><a href=""><i class="fa fa-support"></i> Help</a></li>
+			</ul>
+		</div>
+		<div class="cpanel-click">
+			<a href="#cpanel"><i class="fa fa-chevron-up"></i></a>
+		</div>
+	</div>
+</body>
+</html>
