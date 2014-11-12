@@ -198,4 +198,58 @@ blockquote {
       #cpanel .cpanel-click a:hover {
         color: #2d94cf; }
 
+.navbar-default {
+  background-image: none;
+  background-color: #333; }
+  .navbar-default .navbar-brand {
+    color: #1485c6;
+    font-size: 2em;
+    font-weight: bold;
+    padding-top: 10px;
+    text-shadow: 0 1px 1px #000; }
+    .navbar-default .navbar-brand:hover {
+      color: #1485c6; }
+    .navbar-default .navbar-brand span {
+      color: #ef7939; }
+  .navbar-default .navbar-right i {
+    color: #000;
+    font-size: 2em;
+    text-shadow: none; }
+  .navbar-default .dropdown-toggle {
+    padding: 10px; }
+    .navbar-default .dropdown-toggle img {
+      border-radius: 50%; }
+
+.story-head {
+  padding-bottom: 40px;
+  text-align: center; }
+  .story-head h1 {
+    color: #ef7939;
+    margin-top: 0; }
+  .story-head h2 {
+    margin-bottom: 0; }
+  .story-head img {
+    float: right;
+    left: 110px;
+    margin-left: 50%;
+    max-width: 100px;
+    position: absolute; }
+  .story-head .progress {
+    max-width: 500px;
+    margin: 20px auto auto auto; }
+
+.panel-default .panel-heading {
+  background-image: none;
+  background-color: #1485c6; }
+  .panel-default .panel-heading i {
+    float: left;
+    font-size: 1em; }
+  .panel-default .panel-heading h4 a {
+    color: #fff;
+    text-align: center;
+    display: block;
+    width: 100%; }
+    .panel-default .panel-heading h4 a:hover {
+      text-decoration: none; }
+
 /*# sourceMappingURL=style.css.map */
