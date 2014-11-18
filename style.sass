@@ -1,5 +1,6 @@
 $color-primary: #2d94cf
 $color-secondary: #ef7939
+$color-green: #5cb460
 $font-content: 'Open Sans', Helvetica, Arial, Sans-serif
 $font-title: 'Nunito', Helvetica, Arial, Sans-Serif
 
@@ -89,6 +90,14 @@ blockquote
 	&:hover
 		background: lighten($color-secondary, 10%)
 		color: #fff
+
+.btn-finish
+	background: $color-green
+	border-bottom: 3px solid darken($color-green, 20%)
+	&:hover
+		background: lighten($color-green, 10%)
+		color: #fff
+
 .well
 	margin-bottom: 40px
 	p
@@ -256,3 +265,23 @@ blockquote
 				width: 100%
 				&:hover
 					text-decoration: none
+.userStory
+	a
+		&:hover
+			text-decoration: none
+	.panel-body
+		padding: 30px
+		.list-unstyled
+			li
+				margin-bottom: 20px
+				&:first-child
+					margin-top: 40px
+				&:last-child
+					margin-bottom: 40px
+			i
+				font-size: 1.5em
+				font-size: 2rem
+				margin-right: 5px
+			.fa-question-circle
+				color: #ddd
+				margin-left: 5px

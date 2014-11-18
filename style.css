@@ -88,6 +88,13 @@ blockquote {
     background: #f39968;
     color: #fff; }
 
+.btn-finish {
+  background: #5cb460;
+  border-bottom: 3px solid #367438; }
+  .btn-finish:hover {
+    background: #7fc482;
+    color: #fff; }
+
 .well {
   margin-bottom: 40px; }
   .well p {
@@ -251,5 +258,23 @@ blockquote {
     width: 100%; }
     .panel-default .panel-heading h4 a:hover {
       text-decoration: none; }
+
+.userStory a:hover {
+  text-decoration: none; }
+.userStory .panel-body {
+  padding: 30px; }
+  .userStory .panel-body .list-unstyled li {
+    margin-bottom: 20px; }
+    .userStory .panel-body .list-unstyled li:first-child {
+      margin-top: 40px; }
+    .userStory .panel-body .list-unstyled li:last-child {
+      margin-bottom: 40px; }
+  .userStory .panel-body .list-unstyled i {
+    font-size: 1.5em;
+    font-size: 2rem;
+    margin-right: 5px; }
+  .userStory .panel-body .list-unstyled .fa-question-circle {
+    color: #ddd;
+    margin-left: 5px; }
 
 /*# sourceMappingURL=style.css.map */
