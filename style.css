@@ -70,29 +70,42 @@ blockquote {
   background: #333333; }
 
 .btn {
+  background: #ddd;
   border: none;
+  border-bottom: 2px solid #aaaaaa;
   color: #fff;
   font-weight: bold;
   padding: 10px 20px; }
+  .btn:hover {
+    background: #ddd;
+    background: #f7f7f7;
+    color: #fff; }
 
 .btn-primary {
   background: #2d94cf;
-  border-bottom: 3px solid #1b587b; }
+  border-bottom: 2px solid #1b587b; }
   .btn-primary:hover {
     background: #55aada; }
 
 .btn-secondary {
   background: #ef7939;
-  border-bottom: 3px solid #b3490f; }
+  border-bottom: 2px solid #b3490f; }
   .btn-secondary:hover {
     background: #f39968;
     color: #fff; }
 
 .btn-finish {
   background: #5cb460;
-  border-bottom: 3px solid #367438; }
+  border-bottom: 2px solid #367438; }
   .btn-finish:hover {
     background: #7fc482;
+    color: #fff; }
+
+.btn-warning {
+  background: #f0ad4e;
+  border-bottom: 2px solid #c77c11; }
+  .btn-warning:hover {
+    background: #f4c37d;
     color: #fff; }
 
 .well {
@@ -263,6 +276,15 @@ blockquote {
   text-decoration: none; }
 .userStory .panel-body {
   padding: 30px; }
+  .userStory .panel-body h4 {
+    margin-bottom: 40px; }
+  .userStory .panel-body .start {
+    float: right;
+    position: relative;
+    top: -10px; }
+  .userStory .panel-body p:before {
+    content: "";
+    clear: both; }
   .userStory .panel-body .list-unstyled li {
     margin-bottom: 20px; }
     .userStory .panel-body .list-unstyled li:first-child {

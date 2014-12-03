@@ -1,6 +1,8 @@
+$color-gray: #ddd
 $color-primary: #2d94cf
 $color-secondary: #ef7939
 $color-green: #5cb460
+$color-yellow: #f0ad4e
 $font-content: 'Open Sans', Helvetica, Arial, Sans-serif
 $font-title: 'Nunito', Helvetica, Arial, Sans-Serif
 
@@ -73,29 +75,42 @@ blockquote
 	background: #333333
 
 .btn
+	background: $color-gray
 	border: none
+	border-bottom: 2px solid darken($color-gray, 20%)
 	color: #fff
 	font-weight: bold
 	padding: 10px 20px
+	&:hover
+		background: $color-gray
+		background: lighten($color-gray, 10%)
+		color: #fff
 
 .btn-primary
 	background: $color-primary
-	border-bottom: 3px solid darken($color-primary, 20%)
+	border-bottom: 2px solid darken($color-primary, 20%)
 	&:hover
 		background: lighten($color-primary, 10%)
 
 .btn-secondary
 	background: $color-secondary
-	border-bottom: 3px solid darken($color-secondary, 20%)
+	border-bottom: 2px solid darken($color-secondary, 20%)
 	&:hover
 		background: lighten($color-secondary, 10%)
 		color: #fff
 
 .btn-finish
 	background: $color-green
-	border-bottom: 3px solid darken($color-green, 20%)
+	border-bottom: 2px solid darken($color-green, 20%)
 	&:hover
 		background: lighten($color-green, 10%)
+		color: #fff
+
+.btn-warning
+	background: $color-yellow
+	border-bottom: 2px solid darken($color-yellow, 20%)
+	&:hover
+		background: lighten($color-yellow, 10%)
 		color: #fff
 
 .well
@@ -271,6 +286,16 @@ blockquote
 			text-decoration: none
 	.panel-body
 		padding: 30px
+		h4
+			margin-bottom: 40px
+		.start
+			float: right
+			position: relative
+			top: -10px
+		p
+			&:before
+				content: ''
+				clear: both
 		.list-unstyled
 			li
 				margin-bottom: 20px
