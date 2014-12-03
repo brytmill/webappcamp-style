@@ -215,11 +215,11 @@
             <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quam quos quaerat inventore deserunt voluptates explicabo fugiat debitis vel numquam voluptatum! Tempore eius animi dolor tenetur incidunt, perspiciatis fugit voluptatibus vel.</p>
 
             <ul class="list-unstyled">
-              <li><i class="fa fa-terminal"></i> <code>$cd ~</code> <a href=""><i class="fa fa-question-circle"></i></a></li>
-              <li><i class="fa fa-terminal"></i> <code>$mkdir code</code> <a href=""><i class="fa fa-question-circle"></a></i></li>
-              <li><i class="fa fa-terminal"></i> <code>$cd ~/code/</code> <a href=""><i class="fa fa-question-circle"></a></i></li>
-              <li><i class="fa fa-terminal"></i> <code>$mkdir zenquotes</code> <a href=""><i class="fa fa-question-circle"></a></i></li>
-              <li><i class="fa fa-terminal"></i> <code>$cd ~/code/zenquotes/</code> <a href=""><i class="fa fa-question-circle"></a></i></li>
+              <li><i class="fa fa-terminal"></i> <code>$cd ~</code> <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Moves into your Root folder"></i></li>
+              <li><i class="fa fa-terminal"></i> <code>$mkdir Code</code> <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Creates a folder named Code in the current folder"></i></li>
+              <li><i class="fa fa-terminal"></i> <code>$cd ~/Code/</code> <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Moves into the Code folder"></i></li>
+              <li><i class="fa fa-terminal"></i> <code>$mkdir ZenQuotes</code> <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Creates a folder named Zenquotes in the current folder"></i></li>
+              <li><i class="fa fa-terminal"></i> <code>$cd ~/Code/ZenQuotes/</code> <i class="fa fa-question-circle" data-toggle="tooltip" data-placement="right" title="Moves into the ZenQuotes folder"></i></li>
             </ul>
           <p class="text-center">
                     <button class="btn btn-finish">Finish</button>
@@ -254,5 +254,11 @@
   </div>
 </section>
   
+<script>
+  $(function () {
+    $('[data-toggle="tooltip"]').tooltip()
+  })
+</script>
+
 </body>
 </html>
