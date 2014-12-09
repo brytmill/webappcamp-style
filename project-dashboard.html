@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Web App Camp - User Story</title>
+
+  <script src="libs/jquery-1.11.0.min.js"></script>
+
+  <!-- Bootstrap Hax -->
+  <link href="libs/font-awesome.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="libs/bootstrap.min.css">
+  <link rel="stylesheet" href="libs/bootstrap-theme.min.css">
+  <script src="libs/bootstrap.min.js"></script>
+  <!-- Fonts -->
+  <link href='libs/open-sans.css' rel='stylesheet' type='text/css'>
+  <link href='libs/nunito.css' rel='stylesheet' type='text/css'>
+
+  <link rel="stylesheet" href="style.css">
+
+</head>
+<body>
+
+<nav class="navbar navbar-default" role="navigation">
+  <div class="container-fluid">
+    <!-- Brand and toggle get grouped for better mobile display -->
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+        <span class="sr-only">Toggle navigation</span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="#"><img src="img/header-logo.png" alt=""> Webapp.<span>Camp</span></a>
+    </div>
+
+    <!-- Collect the nav links, forms, and other content for toggling -->
+    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#"><i class="fa fa-group"></i></a></li>
+        <li><a href="#"><i class="fa fa-envelope"></i></a></li>
+        <li><a href="#"><i class="fa fa-bell"></i></a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown"><img src="img/me.jpg" alt=""> <span class="caret"></span></a>
+          <ul class="dropdown-menu" role="menu">
+            <li><a href="#">Action</a></li>
+            <li><a href="#">Another action</a></li>
+            <li><a href="#">Something else here</a></li>
+            <li class="divider"></li>
+            <li><a href="#">Separated link</a></li>
+          </ul>
+        </li>
+      </ul>
+    </div><!-- /.navbar-collapse -->
+  </div><!-- /.container-fluid -->
+</nav>
+
+<div class="container story-head">
+  <img src="img/logo.png" alt="" style="left: 180px;">
+  <h2>Project Dashboard</h2>
+  <h1>Choose Your Camp</h1>
+</div>
+<section class="container dashboard-items">
+  <div class="row">
+    <div class="col-md-4">
+      <div class="projects">
+        <h2><i class="glyphicon glyphicon-globe"></i><br/>Web Application Development: Secrets</h2>
+        <h3>Project(s):</h3>
+        <ul class="project-list">
+          <li>Getting Started <button class="btn" data-toggle="modal" data-target="#getting-started">?</button> <button class="btn btn-finish first"><i class="fa fa-check"></i></button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="getting-started" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "Getting Started"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+
+          <li>OOP &amp; You <button class="btn" data-toggle="modal" data-target="#oop-you">?</button> <button class="btn btn-finish first"><i class="fa fa-check"></i></button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="oop-you" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "OOP &amp; You"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <li>Why APIs? <button class="btn" data-toggle="modal" data-target="#why-api">?</button> <button class="btn btn-finish first">Start</button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="why-api" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "Why APIs?"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="projects front-end">
+        <h2><i class="fa fa-desktop"></i><br/>Front-End Development: Intro</h2>
+        <h3>Project(s):</h3>
+        <ul class="project-list">
+          <li>Zen Quotes <button class="btn" data-toggle="modal" data-target="#zen-quotes">?</button> <button class="btn btn-finish first"><i class="fa fa-check"></i></button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="zen-quotes" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "Zen Quotes"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <li>DOM Manipulation <button class="btn" data-toggle="modal" data-target="#dom-manipulation">?</button> <button class="btn btn-finish first">Start</button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="dom-manipulation" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "DOM Manipulation"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <li>CSS Styling <button class="btn" data-toggle="modal" data-target="#css-styling">?</button> <button class="btn btn-finish first">Start</button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="css-styling" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "CSS Styling"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </ul>
+      </div>
+    </div>
+    
+    <div class="col-md-4">
+      <div class="projects back-end">
+        <h2><i class="fa fa-code"></i><br/>Back-End Development: Intro</h2>
+        <h3>Project(s):</h3>
+        <ul class="project-list">
+          <li>Install Rails <button class="btn" data-toggle="modal" data-target="#install-rails">?</button> <button class="btn btn-finish first"><i class="fa fa-check"></i></button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="install-rails" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "Install Rails"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <li>Rails Starter <button class="btn" data-toggle="modal" data-target="#rails-starter">?</button> <button class="btn btn-finish first"><i class="fa fa-check"></i></button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="rails-starter" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "Rails Starter"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <li>Business Card <button class="btn" data-toggle="modal" data-target="#business-card">?</button> <button class="btn btn-finish first"><i class="fa fa-check"></i></button></li>
+
+          <!-- Modal -->
+          <div class="modal fade" id="business-card" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+            <div class="modal-dialog">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+                  <h4 class="modal-title" id="myModalLabel">About: "Business Card"</h4>
+                </div>
+                <div class="modal-body">
+                  <p>In this project you will learn pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Vestibulum tortor quam, feugiat vitae, ultricies eget, tempor sit amet, ante. Donec eu libero sit amet quam egestas semper. Aenean ultricies mi vitae est. Mauris placerat eleifend leo.</p>
+                  <p>Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas.</p>
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-primary" data-dismiss="modal">Got it!</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </ul>
+      </div>
+    </div>
+  </div>
+</section>
+
+</body>
+</html>
