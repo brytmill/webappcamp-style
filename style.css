@@ -312,7 +312,7 @@ blockquote {
     color: #1b587b;
     text-align: center; }
   .dashboard-items .projects i {
-    font-size: 1.5em;
+    font-size: 1.25em;
     color: #1b587b; }
   .dashboard-items .projects .modal {
     color: #333; }
@@ -320,6 +320,8 @@ blockquote {
       color: #fff; }
   .dashboard-items .projects .btn {
     color: #aaaaaa; }
+    .dashboard-items .projects .btn i.fa-check {
+      color: #aaaaaa; }
   .dashboard-items .projects .btn-finish {
     color: #0b6b4b; }
   .dashboard-items .projects .fa-check {
@@ -345,6 +347,8 @@ blockquote {
         font-size: 0.75em; }
       .dashboard-items .projects ul li .first {
         margin-right: 5px; }
+      .dashboard-items .projects ul li .btn-warning i {
+        color: #c77c11; }
 .dashboard-items .front-end {
   background: #14acc8; }
   .dashboard-items .front-end h3 {
