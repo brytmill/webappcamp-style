@@ -336,36 +336,42 @@ blockquote
 			color: #0b6b4b
 		.fa-check
 			color: #0b6b4b
+		ul
+			margin: 0
+			padding: 0
+			li
+				background: darken($color-primary, 20%)
+				border-radius: 3px
+				font-weight: bold
+				font-size: 1em
+				list-style: none
+				margin-bottom: 5px
+				padding: 10px
+				&:after
+					content: ''
+					clear: both
+					display: block
+					visibility: hidden
+				button
+					float: right
+					font-size: 0.75em
+				.first
+					margin-right: 5px
 	.front-end
 		background: #14acc8
 		h3
 			color: darken(#14acc8, 20%)
 		i
 			color: darken(#14acc8, 20%)
+		ul
+			li
+				background: darken(#14acc8, 20%)
 	.back-end
 		background: #14c88b
 		h3
 			color: darken(#14c88b, 20%)
 		i
 			color: darken(#14c88b, 20%)
-	ul
-		margin: 0
-		padding: 0
-		li
-			background: darken($color-primary, 20%)
-			border-radius: 3px
-			font-weight: bold
-			font-size: 1em
-			list-style: none
-			margin-bottom: 5px
-			padding: 10px
-			&:after
-				content: ''
-				clear: both
-				display: block
-				visibility: hidden
-			button
-				float: right
-				font-size: 0.75em
-			.first
-				margin-right: 5px
+		ul
+			li
+				background: darken(#14c88b, 20%)
