@@ -45,13 +45,58 @@ blockquote {
   border-left: 5px solid #ddd;
   border-radius: 5px;
   color: #555;
-  display: inline-block;
+  display: block;
   font-family: "Nunito", Helvetica, Arial, Sans-Serif;
   font-style: italic;
   margin: 20px;
-  max-width: 480px;
+  margin-left: 60px;
   padding: 40px 20px;
+  position: relative;
   width: auto; }
+  blockquote img {
+    border-radius: 50%;
+    position: absolute;
+    top: 25px;
+    left: -100px; }
+
+.right {
+  border-left: none;
+  border-right: 5px solid #ddd;
+  text-align: right;
+  margin-right: 20px; }
+  .right img {
+    border-radius: 50%;
+    position: absolute;
+    left: auto;
+    top: 25px;
+    right: -100px; }
+
+.mentor-title {
+  font-weight: 300;
+  font-size: 0.75em; }
+
+.spacer {
+  background: none;
+  display: block;
+  height: 1px;
+  margin: 20px 0;
+  width: 100%; }
+
+.cover-bg {
+  background: #fff;
+  display: inline-block;
+  padding-right: 20px;
+  position: relative;
+  z-index: 2; }
+
+.line {
+  background: #ddd;
+  display: inline-block;
+  height: 1px;
+  width: 100%;
+  position: relative;
+  top: -33px;
+  z-index: 1; }
 
 .prim-color {
   background: #2d94cf;
@@ -276,8 +321,6 @@ blockquote {
   text-decoration: none; }
 .userStory .panel-body {
   padding: 30px; }
-  .userStory .panel-body h4 {
-    margin-bottom: 40px; }
   .userStory .panel-body .start {
     float: right;
     position: relative;
@@ -287,8 +330,6 @@ blockquote {
     clear: both; }
   .userStory .panel-body .list-unstyled li {
     margin-bottom: 20px; }
-    .userStory .panel-body .list-unstyled li:first-child {
-      margin-top: 40px; }
     .userStory .panel-body .list-unstyled li:last-child {
       margin-bottom: 40px; }
   .userStory .panel-body .list-unstyled i {
@@ -298,6 +339,19 @@ blockquote {
   .userStory .panel-body .list-unstyled .fa-question-circle {
     color: #ddd;
     margin-left: 5px; }
+.userStory .accept-criteria li {
+  background: url("img/star-inactive.png") top left no-repeat;
+  padding-left: 30px; }
+.userStory .accept-criteria .accepted {
+  background: url("img/star-active.png") top left no-repeat; }
+.userStory .reset {
+  float: left; }
+  .userStory .reset i {
+    font-size: 1em; }
+
+.comments {
+  padding-left: 40px;
+  padding-right: 75px; }
 
 .dashboard-items .col-md-4 {
   margin-bottom: 20px; }

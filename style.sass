@@ -53,13 +53,56 @@ blockquote
 	border-left: 5px solid #ddd
 	border-radius: 5px
 	color: #555
-	display: inline-block
+	display: block
 	font-family: $font-title
 	font-style: italic
 	margin: 20px
-	max-width: 480px
+	margin-left: 60px
 	padding: 40px 20px
+	position: relative
 	width: auto
+	img
+		border-radius: 50%
+		position: absolute
+		top: 25px
+		left: -100px
+.right
+	border-left: none
+	border-right: 5px solid #ddd
+	text-align: right
+	margin-right: 20px
+	img
+		border-radius: 50%
+		position: absolute
+		left: auto
+		top: 25px
+		right: -100px
+.mentor-title
+	font-weight: 300
+	font-size: .75em
+
+.spacer 
+	background: none
+	display: block
+	height: 1px
+	margin: 20px 0
+	width: 100%
+
+.cover-bg
+	background: #fff
+	display: inline-block
+	padding-right: 20px
+	position: relative
+	z-index: 2
+
+.line
+	background: #ddd
+	display: inline-block
+	height: 1px
+	width: 100%
+	position: relative
+	top: -33px
+	z-index: 1
 
 .prim-color
 	background: $color-primary
@@ -286,8 +329,6 @@ blockquote
 			text-decoration: none
 	.panel-body
 		padding: 30px
-		h4
-			margin-bottom: 40px
 		.start
 			float: right
 			position: relative
@@ -299,8 +340,6 @@ blockquote
 		.list-unstyled
 			li
 				margin-bottom: 20px
-				&:first-child
-					margin-top: 40px
 				&:last-child
 					margin-bottom: 40px
 			i
@@ -310,6 +349,19 @@ blockquote
 			.fa-question-circle
 				color: #ddd
 				margin-left: 5px
+	.accept-criteria
+		li
+			background: url('img/star-inactive.png') top left no-repeat
+			padding-left: 30px
+		.accepted
+			background: url('img/star-active.png') top left no-repeat
+	.reset
+		float: left
+		i
+			font-size: 1em
+.comments
+	padding-left: 40px
+	padding-right: 75px
 .dashboard-items
 	.col-md-4
 		margin-bottom: 20px
