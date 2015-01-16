@@ -420,4 +420,14 @@ blockquote {
   .dashboard-items .back-end ul li {
     background: #0b6b4b; }
 
+.incomplete {
+  background: -webkit-radial-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
+.complete {
+  background: -webkit-linear-gradient(#fee266, #c8a034);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; }
+
 /*# sourceMappingURL=style.css.map */
